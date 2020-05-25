@@ -1,0 +1,10 @@
+.picture01{
+  height: 300px;
+  float:right;
+}
+
+.profile01 span{
+  font-size: 20px;
+  font-style: italic;
+  font-weight: normal;  
+}
