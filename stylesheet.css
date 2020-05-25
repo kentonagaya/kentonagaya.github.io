@@ -161,3 +161,24 @@ footer {
   opacity: 0.8px;
   font-size: 12px;
 }
+
+/* @media */
+@media all and (max-width: 1000px) {
+  .container {
+    width: 1000px;
+  }
+
+  .header_bottom li{
+    width:246px;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .container {
+    width: 670px;
+  }
+
+  .header_bottom li{
+    width:168px;
+  }
+}
