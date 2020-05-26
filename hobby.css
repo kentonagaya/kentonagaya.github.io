@@ -1,0 +1,79 @@
+/* hobby.html */
+.hobby_wrapper{
+  margin:20px 0;
+}
+
+.hobby_wrapper h2{
+  text-align: center;
+}
+
+.hobby_wrapper img{
+  width:100%;
+}
+
+.hobby_wrapper h3{
+  text-align: center;
+  margin: 15px 0 0;
+}
+
+.hobby_wrapper p{
+  text-align: center;
+  font-size: small;
+  margin-top:0;
+}
+
+.present{
+  width: 95%;
+  border: 1px solid #bbb;
+  margin: 0 auto;
+  background-color: #333;
+  color:white;
+  text-align: center;
+}
+
+.present_a{
+  line-height: 25px;
+}
+
+.present_td{
+  float:left;
+  width:33.3%;
+}
+
+.present_b{
+  line-height: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  color: yellow;
+}
+
+.db{
+  width:95%;
+  border-collapse: collapse;
+  border: 1px solid #bbb;
+  margin: 10px auto 0;
+  text-align: center;
+}
+
+.db th, .db td{
+  border: 1px solid #bbb;
+}
+
+.db th{
+  width:
+}
+
+tr{
+  text-align: 25px;
+}
+.db td{
+  padding: 0;
+}
+
+.db img{
+  display: inline;
+  padding: 0;
+  margin: 0;
+  line-height:24px;
+  width:50px;
+}
