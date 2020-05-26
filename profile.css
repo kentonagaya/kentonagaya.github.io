@@ -1,10 +1,33 @@
-.picture01{
-  height: 300px;
-  float:right;
+.article_wrapper{
+  float:left;
+  margin:20px 0;
 }
 
-.profile01 span{
+.picture{
+  float:right;
+  height: 300px;
+  display:inline;
+  margin-left: 15px;
+}
+
+.article_wrapper span{
   font-size: 20px;
   font-style: italic;
-  font-weight: normal;  
+  font-weight: normal;
+}
+
+.article_wrapper p{
+  margin-bottom: 30px;
+}
+
+@media all and (max-width: 1000px) {
+  .picture{
+    height: 200px;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .picture{
+    height: 200px;
+  }
 }
