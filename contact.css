@@ -1,0 +1,99 @@
+.contact_wrapper{
+  margin:20px 0;
+}
+
+form{
+  width:650px;
+  margin: 0 auto;
+}
+
+.item{
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+label, input, textarea{
+  border-radius:5px;
+  border: solid 1px #bbb;
+  font-family: "源柔ゴシック";
+}
+
+label{
+  float: left;
+  width:25%;
+  line-height: 40px;
+  background-color: #bbb;
+  text-align: center;
+}
+
+label[for="content"]{
+  height:160px;
+}
+
+input[type="text"], input[type="email"], textarea{
+  float: right;
+  width:73%;
+  padding:10px;
+  font-size: 15px;
+  font-family: "源柔ゴシック";
+}
+
+input[type="text"], input[type="email"]{
+  line-height: 20px;
+}
+
+textarea{
+  height: 160px;
+}
+
+.btn_area{
+  text-align: center;
+}
+
+input[type="submit"],input[type="reset"]{
+  border: none;
+  color: white;
+  font-size:17px;
+  font-weight:bold;
+  padding: 10px 50px;
+  margin: 0 10px;
+  box-shadow: 4px 4px #aaa;
+}
+
+input[type="submit"]{
+  background: #e0505c;
+}
+
+input[type="reset"]{
+  background: #bbb;
+}
+
+input[type="submit"]:hover,input[type="reset"]:hover{
+  opacity:0.8;
+  cursor: pointer;
+  box-shadow: none;
+  position: relative;
+  top:4px;
+  left:4px;
+}
+
+p{
+  padding:15px 0; 
+}
+
+@media all and (max-width: 670px) {
+  form{
+    width:370px;
+    margin: 0 auto;
+  }
+
+  label{
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  input[type="submit"],input[type="reset"]{
+    margin:10px 10px 15px;
+    font-size: 15px;
+  }
+}
